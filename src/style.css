@@ -1,0 +1,38 @@
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  top: 0;
+  left: 0;
+}
+
+.markdown-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  height: calc(100vh - 2rem);
+  margin: 1rem;
+}
+
+.markdown-container__preview, .markdown-container__editor {
+  font-size: 1.25rem;
+  padding: .5rem;
+  margin: 0;
+  border: 1px solid hsl(0, 7%, 7%);
+  height: 100%;
+}
+
+.markdown-container__editor {
+  resize: none;
+  outline: none;
+}
+
+.markdown-container__preview {
+  background: hsl(0, 0%, 95%);
+}
