@@ -8,7 +8,7 @@
     "build": "parcel build src/index.html"
   },
   "dependencies": {
-    "marked": "^0.8.0"
+    "marked": "^4.0.10"
   },
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^2.12.0",
